@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="uft-8">
-	<title>Kate Tealdi's Bio page</title>
+	<title id="foo">Kate Tealdi's Bio page</title>
 	<script
 		src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
 	</script>
 
 </head> 
 <body>
-	<img src="http://placekitten.com/500/300"http://placekitten.com/500/300"/>
+	<img src="http://fc06.deviantart.net/fs70/f/2011/167/a/a/the_knight_by_will_o_wisp_art-d3j2f30.jpg"/>
 <h3>Favorite Colors</h3>
 	<ul>
 	<li>Green</li>
@@ -65,3 +65,35 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XwgrwcPaSzA" frameborder="0" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z9kK8gSFa4o" frameborder="0" allowfullscreen></iframe>
 <p>Venteocho de Abril</p>
+
+<input type="button" onclick="changetext()" value="Hit me" />
+
+		<script type="text/javascript">
+		function changetext() {
+			alert("Hi, I'm Kate.");
+			$("#foo").html("");
+			//$("#foo").fadeOut();			
+			//$("p").addClass("nice");
+			}
+		</script>
+
+		<p id="foo1">What will people say after GG</p>
+		<input type="button" onclick="changetext2()" value="Is Ocarina actually fun?" />
+
+		<script type="text/javascript">
+                function changetext2() {
+                $("#foo1").html("Si, Ocarina es muy divertido.");
+		$("#foo1").css("color","green");
+		$("#fool").css("fontSize","50px"); 
+                        }
+		</script>
+
+		<p id="foo2">This is the button to my lyrics website</p>
+		<input type="button" onclick="changetext3()" value="HEY! Where are my lyrics?" />
+
+		<script type="text/javascript">
+			function changetext3() {
+			$("#foo2").html("RIGHT HERE!:  http://tealdi573.github.io/lyrics.html");
+			}
+		</script>
+</html>
