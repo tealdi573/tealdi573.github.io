@@ -17,7 +17,7 @@ pt type="text/javascript">
 
 <a href="#" class="myButton">green</a>
 
-.myButton {
+.foo2 {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1c7834), color-stop(1, #76b853));
 	background:-moz-linear-gradient(top, #1c7834 5%, #76b853 100%);
 	background:-webkit-linear-gradient(top, #1c7834 5%, #76b853 100%);
