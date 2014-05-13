@@ -39,7 +39,7 @@ pt type="text/javascript">
 	text-decoration:none;
 	text-shadow:0px 0px 24px #a2db99;
 }
-.myButton:hover {
+.foo2:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #76b853), color-stop(1, #1c7834));
 	background:-moz-linear-gradient(top, #76b853 5%, #1c7834 100%);
 	background:-webkit-linear-gradient(top, #76b853 5%, #1c7834 100%);
@@ -49,7 +49,7 @@ pt type="text/javascript">
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#76b853', endColorstr='#1c7834',GradientType=0);
 	background-color:#76b853;
 }
-.myButton:active {
+.foo2:active {
 	position:relative;
 	top:1px;
 }
