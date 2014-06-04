@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script data-require="processing.js@*" data-semver="1.4.1" src="//cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.1/processing.min.js"></script>
+    <script type="text/processing" data-processing-target="targetcanvas">
+       void setup()
+        {
+            noStroke();
+            size (400,400)
+        }
+        void draw(){
+        noFill();
+        ellipse(200, 200, 200, 200);
+        noStroke();
+        x = random (0, 400);
+        y = random (0, 400);
+        d = dist(x, y, 200, 200);
+        if (d >= 200) {
+           fill(255, 0, 0, 96);
+           noStroke();
+           ellipse(x, y, 7, 7); 
+          } 
+          else {
+              fill(16, 112, 19, 96);
+              noStroke();
+              ellipse(x, y, 8, 8); 
+          }
+      };
+
+    </script>    
+  </head>
+
+  <body>
+    <canvas id="targetcanvas" width="400" height="400"></canvas>
+  </body>
+</html>
